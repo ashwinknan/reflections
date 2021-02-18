@@ -1,0 +1,11 @@
+Viewing a difference between two versions of a file helped me focus on the exact points on where I needed to focus to search for the errors instead of pointlessly not looking at where to find. In effect, it is like being directed where to look instead of searching for needles in a haystack 
+
+You exactly know what are the changes made instead of having to commit them to memory. It helps you spot what change caused a particular error and hence help you crack the root cause of unexpected behavior quickly. It also helps you understand the rational (at the time) of making a particular change 
+
+Advantages of manual commits - Manual commits are useful because they give the power to the user to realize and decide the checkpoint. The disadvantage obviously is that the definition of when to make a change becomes largely subjective. What is a small logical change for one developer may end tup being a big one for another 
+
+Git is primarily used in the context of software where the desired output probably has multiple inputs. Hence it is important to treat repositories as the sum total of the component files. On the other hand, Google docs files are independent entities with zero interdependence. Hence it makes sense to treat them separately
+
+Git log tells us what all histories are there to a document whereas git diff helps us compare two commits. So basically first we view the list of versions using got log and then we compare any two members on that list through git commit 
+
+Version control gives us the assurance that even if you make a big change from a working model, you always can safely return to the state if the new changes result in a bug or does not work as intended. This confidence enables us take bold risks which re very essential to good programming 
