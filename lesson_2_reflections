@@ -3,7 +3,8 @@ It is like allocating new space to books on a bookshelf. Sets you up for better 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-It is like an intermediate place like Add to cart in a shopping site. Where things are temporarily saved. It helps you decide how much you want to commit one by one. Otherwise, we will be forced to make big commits which include the status of all files even if only one file had a change. 
+It is like an intermediate place like Add to cart in a shopping site. Where things are temporarily saved. It helps you decide how much you want to commit one by one. Otherwise, we will be forced to make big commits which include the status of all files even if only one file had a change. Adding another line
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
