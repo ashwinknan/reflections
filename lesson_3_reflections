@@ -5,9 +5,8 @@ When you don't probably have enough space on your local computer or if you want 
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-
-    Fill in your answer here
-
+In case of collaboration with different teams, it might be first useful to view the commits made there by other team members and CHOOSE
+to pull only those changes that are useful. Manual pull is useful in such cases 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
